@@ -2,6 +2,18 @@
     width: 100%;
     position: relative;
     display: block;
+    background-image: url("../img/titleImage.jpg");
+    background-repeat: no-repeat;
+    height: -webkit-fill-available;
+    min-width: 250px;
+    max-width: 100%;
+  }
+
+  .titleHeaderText {
+      float: right;
+      padding: 10% 10%;
+      width: 55%;
+
   }
 
   body {
@@ -9,6 +21,7 @@
   }
 
   ul {
+    min-width: 250px;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -40,8 +53,14 @@
       pointer-events: none;
   }
 
-  li a:hover, a:active {
+  li a:hover {
     color: #BB7251;
+    text-decoration: none;
+  }
+
+  li a:active {
+    color: #BB7251;
+    text-decoration: none;
   }
 
   li:not(:last-child):before {
