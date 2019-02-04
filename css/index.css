@@ -31,7 +31,8 @@
     padding: 20px 30px;
     text-decoration: none;
     font-family: 'Trebuchet MS';
-    font-size: 26pt;
+    font-size: 20pt;
+    user-select: none;
   }
 
   .li-divider {
@@ -49,7 +50,17 @@
     color: #f8ebd5;
     pointer-events: none;
     font-family: 'Trebuchet MS';
-    font-size: 26pt;
+    font-size: 20pt;
     text-align: center;
     display: inline-block;
+  }
+
+  .noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
   }
