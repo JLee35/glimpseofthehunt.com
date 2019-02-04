@@ -14,8 +14,9 @@
       display: block;
       padding-right: 30px;
       padding-left: 30px;
-      position: sticky;
+      position: fixed;
       z-index: 5;
+      transition: top 0.3s;
   }
 
   .navbar input[type=text] {
