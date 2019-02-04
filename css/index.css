@@ -1,12 +1,13 @@
 .titleHeader {
     width: 100%;
-    position: relative;
-    display: block;
+    position: inherit;
+    display: inline-table;
     background-image: url("../img/titleImage.jpg");
     background-repeat: no-repeat;
-    height: -webkit-fill-available;
     min-width: 250px;
     max-width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
   }
 
   .navbar {
@@ -17,16 +18,31 @@
       z-index: 5;
   }
 
+  .navbar input[type=text] {
+      float: right;
+      padding: 15px 30px;
+      border: none;
+      font-size: 17px;
+      position: relative;
+      top: 15px;
+      border: 1px solid transparent;
+      outline: none;
+  }
+
+  .navbar input[type=text]:hover {
+      border: 1px solid #D78843;
+  }
+
   .titleHeaderText {
       float: right;
       padding: 10% 10%;
       width: 55%;
-
   }
 
   body {
     margin: 0;
-    background-color: #F6EBD7;
+    background-color: #FCF9F0;
+    overflow-x: hidden;
   }
 
   ul {
@@ -70,7 +86,7 @@
     text-decoration: none;
   }
 
-  li a:active {
+  .active {
     color: #BB7251;
     text-decoration: none;
   }
@@ -95,3 +111,19 @@
             user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome and Opera */
   }
+
+  .content-body {
+      margin-left: 2%;
+      margin-right: 2%;
+  }
+
+  .column {
+      margin-bottom: 2%;
+      float: left;
+      width: 50%;
+  }
+
+  .text-content {
+      background-color: rgb(0,0,0,0.4);
+  }
+
