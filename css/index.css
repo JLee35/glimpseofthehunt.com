@@ -13,7 +13,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #F8EBD5;
+    background-color: #8a7664;
     top: 0;
     width: 100%;
     display: block;
@@ -25,15 +25,31 @@
   }
 
   li a {
-    display: block;
-    color: #5B6452;
+    display: inline-block;
+    color: #f8ebd5;
     text-align: center;
-    padding: 20px 24px;
+    padding: 20px 30px;
     text-decoration: none;
     font-family: 'Trebuchet MS';
-    font-size: 35pt;
+    font-size: 26pt;
+  }
+
+  .li-divider {
+      color: #f8ebd5;
+      pointer-events: none;
   }
 
   li a:hover, a:active {
     color: #BB7251;
+  }
+
+  li:not(:last-child):before {
+    content: " | ";
+    padding: 20px 35px;
+    color: #f8ebd5;
+    pointer-events: none;
+    font-family: 'Trebuchet MS';
+    font-size: 26pt;
+    text-align: center;
+    display: inline-block;
   }
