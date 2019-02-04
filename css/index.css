@@ -9,6 +9,12 @@
     max-width: 100%;
   }
 
+  .navbar {
+      display: block;
+      padding-right: 30px;
+      padding-left: 30px;
+  }
+
   .titleHeaderText {
       float: right;
       padding: 10% 10%;
@@ -21,6 +27,8 @@
   }
 
   ul {
+    padding-right: 30px;
+    padding-left: 30px;
     min-width: 250px;
     list-style-type: none;
     margin: 0;
@@ -42,6 +50,7 @@
     color: #f8ebd5;
     text-align: center;
     padding: 20px 30px;
+    position: relative;
     text-decoration: none;
     font-family: 'Trebuchet MS';
     font-size: 20pt;
@@ -63,7 +72,7 @@
     text-decoration: none;
   }
 
-  li:not(:last-child):before {
+  li:not(:first-child):after {
     content: " | ";
     padding: 20px 35px;
     color: #f8ebd5;
