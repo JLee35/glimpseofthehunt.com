@@ -13,6 +13,8 @@
       display: block;
       padding-right: 30px;
       padding-left: 30px;
+      position: sticky;
+      z-index: 5;
   }
 
   .titleHeaderText {
@@ -24,6 +26,7 @@
 
   body {
     margin: 0;
+    background-color: #F6EBD7;
   }
 
   ul {
