@@ -54,7 +54,7 @@
     opacity: 0.2;
     z-index: -1;
     position: fixed;
-    width: 200%;
+    width: 100%;
   }
 
   ul {
