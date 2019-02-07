@@ -42,7 +42,8 @@
 
   body {
     margin: 0;
-    background-color: #FCF9F0;
+    background-image: url("../img/digital_background.png");
+    background-repeat: no-repeat;
     overflow-x: hidden;
   }
 
