@@ -3,7 +3,7 @@ html {
 }
 
 .navbar {
-    background-color: #FFFEF4;
+    background-color: #EFEFEE;
 }
 
 .container {
@@ -32,10 +32,14 @@ nav {
     max-height: 670px !important;
 }
 
-.profile-picture {
-    max-width: 350px !important;
+.column-pic {
+    max-width: 100% !important;
 }
 
+.column-text {
+    letter-spacing: 2px
+}
 
-
-
+.profile-pic {
+    max-width: 380px !important;
+}
