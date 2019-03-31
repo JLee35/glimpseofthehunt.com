@@ -20,7 +20,7 @@ nav {
     background-image: url("../img/digital_background.png");
     background-repeat: repeat-y;
     background-size: cover;
-    height: 100vh;
+    height: 200vh;
     opacity: 0.1;
     z-index: -1;
     position: fixed;
@@ -35,12 +35,12 @@ nav {
     min-width: 600px !important;
 }
 
-.column-pic {
+.div-pic {
     max-width: 100% !important;
     min-width: 600px !important;
 }
 
-.column-text {
+.div-text {
     letter-spacing: .1em;
     min-width: 655px !important;
 }
