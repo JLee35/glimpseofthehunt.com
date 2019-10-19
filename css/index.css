@@ -60,6 +60,24 @@
  .nav ul li {
     display: inline-block;
  }
+
+ 
+.image-slider .orbit-image {
+    width: 100%;
+  }
+  
+.image-slider .orbit-caption {
+    bottom: 5%;
+    -webkit-transform: translateY(50%);
+        -ms-transform: translateY(50%);
+            transform: translateY(50%);
+    background: none;
+    text-align: center;
+    color: #fefefe;
+    font-weight: bold;
+  }
+  
+  
   
   
   
