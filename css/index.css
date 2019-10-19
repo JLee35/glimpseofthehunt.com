@@ -48,3 +48,5 @@ nav {
 .profile-pic {
     max-width: 380px !important;
 }
+
+@media (min-width:1025px) { .container { width: 80% !important;} }
