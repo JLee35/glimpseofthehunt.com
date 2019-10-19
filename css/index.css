@@ -51,6 +51,15 @@
     right: 0;
     transition: all 0.5s ease;
   }
+
+  .nav ul {
+    list-style: none;
+    text-align: center;
+ }
+ 
+ .nav ul li {
+    display: inline-block;
+ }
   
   
   
