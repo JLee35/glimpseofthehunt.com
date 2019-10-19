@@ -19,6 +19,10 @@
     font-variant-ligatures: common-ligatures;
 }
 
+.body-content {
+    margin-bottom: 15px;
+}
+
 .description {
     max-width: 1400px;
     margin-left: 19.99px;
