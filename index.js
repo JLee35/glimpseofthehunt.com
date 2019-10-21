@@ -10,8 +10,6 @@ $window.on('scroll', function(){
 
 $("[data-menu-underline-from-center] a").addClass("underline-from-center");
 
-
-
 // Globals
 var sliderImages = [
     "img/newShowcase/deer-1-right-face.jp2",

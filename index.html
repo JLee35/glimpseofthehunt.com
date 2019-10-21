@@ -40,47 +40,48 @@
     <!-- End Nav -->
 
     <!-- Start Image Slider -->
-    <div class="image-slider body-content description">
-        <div class="orbit" role="region" aria-label="FullScreen Pictures" data-orbit>
+    <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+        <div class="orbit-wrapper">
+            <div class="orbit-controls">
+                <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+                <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+            </div>
             <ul class="orbit-container">
-                <button class="orbit-previous">
-                    <span class="show-for-sr">Previous Slide</span>
-                    <span class="nav fa fa-chevron-left fa-3x"></span>
-                </button>
-                <button class="orbit-next">
-                    <span class="show-for-sr">Next Slide</span>
-                    <span class="nav fa fa-chevron-right fa-3x"></span>
-                </button>
-
                 <li class="is-active orbit-slide">
-                    <img class="orbit-image" src="img/newShowcase/ericKneelingInTallGrass.jp2" alt="Space">
-                    <figcaption class="orbit-caption">
-                        <p>Erick Bond, Owner & Founder</p>
-                    </figcaption>
+                    <figure class="orbit-figure">
+                        <img class="orbit-image" src="https://placehold.it/1200x600/999?text=Slide-1" alt="Space">
+                        <figcaption class="orbit-caption">Space, the final frontier.</figcaption>
+                    </figure>
+                </li>
+                <li class="orbit-slide">
+                    <figure class="orbit-figure">
+                        <img class="orbit-image" src="https://placehold.it/1200x600/888?text=Slide-2" alt="Space">
+                        <figcaption class="orbit-caption">Lets Rocket!</figcaption>
+                    </figure>
+                </li>
+                <li class="orbit-slide">
+                    <figure class="orbit-figure">
+                        <img class="orbit-image" src="https://placehold.it/1200x600/777?text=Slide-3" alt="Space">
+                        <figcaption class="orbit-caption">Encapsulating</figcaption>
+                    </figure>
+                </li>
+                <li class="orbit-slide">
+                    <figure class="orbit-figure">
+                        <img class="orbit-image" src="https://placehold.it/1200x600/666&text=Slide-4" alt="Space">
+                        <figcaption class="orbit-caption">Outta This World</figcaption>
+                    </figure>
                 </li>
             </ul>
         </div>
-    </div>
-    <!-- End Image Slider -->
-
-    <!-- Start Getting Started -->
-    <div class="row expanded collapse body-content" id="gettingStarted">
-        <div class="column">
-            <div class="large-article-header description"></div>
-            <div class="description">
-                <br>
-                <h1 class="hero-header">Getting Started</h1>
-                <h5 class="hero-text">
-                    Preserving a dream starts the second the heart stops. Your trophy needs to
-                    be brought to the shop or frozen immediately. Remember to keep skin to skin,
-                    hair to hair, if frozen, and try to hide the lips, eyes, and ears inside the
-                    cape to protect these sensitive areas. My goal is to have your trophy back in
-                    nine months so you can display your dream! Thanks for your business and good
-                    luck hunting!
-                </h5>
-            </div>
-
-        </div>
+        <nav class="orbit-bullets">
+            <button class="is-active" data-slide="0">
+                <span class="show-for-sr">First slide details.</span>
+                <span class="show-for-sr" data-slide-active-label>Current Slide</span>
+            </button>
+            <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+            <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+            <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
+        </nav>
     </div>
     <!-- End Getting Started -->
 
@@ -91,13 +92,13 @@
         <table class="hover scroll">
             <thead>
                 <tr>
-                    <th width="25px" scope="column">Species</th>
-                    <th width="25px" scope="column">Shoulder</th>
-                    <th width="25px" scope="column">Half Size</th>
-                    <th width="25px" scope="column">Life Size</th>
-                    <th width="25px" scope="column">Rugs</th>
-                    <th width="25px" scope="column">Tanning</th>
-                    <th width="25px" scope="column">European</th>
+                    <th scope="column">Species</th>
+                    <th scope="column">Shoulder</th>
+                    <th scope="column">Half Size</th>
+                    <th scope="column">Life Size</th>
+                    <th scope="column">Rugs</th>
+                    <th scope="column">Tanning</th>
+                    <th scope="column">European</th>
                 </tr>
             </thead>
             <tbody>
@@ -441,9 +442,8 @@
     <footer class="body-content description">
         <!-- Copyright -->
         <div class="description">© 2019 Copyright: Glimpse of the Hunt</div>
-        <div class="description">Icons made by <a href="https://www.freepik.com/"
-                title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"
-                title="Flaticon">www.flaticon.com</a> is licensed by <a
+        <div class="description">Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a
+                href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a
                 href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC
                 3.0 BY</a></div>
         <!-- Copyright -->
