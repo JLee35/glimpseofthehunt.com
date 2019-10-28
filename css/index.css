@@ -40,9 +40,16 @@ html {
 }
 
 .description {
-    max-width: 1400px;
+    max-width: 1000px;
     margin-left: 19.99px;
     margin-right: 19.99px;
+}
+
+@media (min-width: 800px) {
+  .description {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .hero-header {
