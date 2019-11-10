@@ -39,6 +39,10 @@ html {
     margin-bottom: 15px;
 }
 
+.custom-footer {
+  text-align: center;
+}
+
 .description {
     max-width: 1000px;
     margin-left: 19.99px;
