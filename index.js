@@ -12,14 +12,10 @@ $("[data-menu-underline-from-center] a").addClass("underline-from-center");
 
 // Globals
 var sliderImages = [
-    "img/newShowcase/deer-1-right-face.jp2",
-    "img/newShowcase/deer2-straight.jp2",
     "img/newShowcase/deer-3-shoulder.jp2",
-    "img/newShowcase/eian-with-kill.jp2",
     "img/newShowcase/eian-right-face.jp2",
     "img/newShowcase/eian-straight.jp2",
     "img/newShowcase/eian-eye.jp2",
-    "img/newShowcase/bradenBull.jp2",
     "img/newShowcase/elk-whole.jp2",
     "img/newShowcase/elk-nose.jp2",
     "img/newShowcase/elk-vein.jp2"
@@ -81,8 +77,6 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   
 }
-
-
 
 
 $(document).ready(function() {
