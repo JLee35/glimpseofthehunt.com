@@ -39,6 +39,12 @@ html {
     margin-bottom: 15px;
 }
 
+.contact__link {
+  display: inline-block;
+  width: 15%;
+  margin-right: 4%;
+}
+
 .custom-footer {
   text-align: center;
 }
