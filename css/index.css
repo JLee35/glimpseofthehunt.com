@@ -39,6 +39,12 @@ html {
     margin-bottom: 15px;
 }
 
+.contact__card {
+  background-color: lightgray;
+  border-radius: 5px;
+  padding: 15px;
+}
+
 .contact__link {
   display: inline-block;
   width: 15%;
@@ -212,9 +218,6 @@ html {
     margin-left: 1rem;
   }
 
-
-
-
   * {box-sizing:border-box}
 
 /* On hover, add a black background color with a little bit see-through */
@@ -222,21 +225,24 @@ html {
   background-color: rgba(0,0,0,0.8);
 }
 
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
 
 /* Table sizes */
 @media only screen and (max-width: 600px) {
   table.scroll {
     display: block;
+  }
+
+  .contact__card {
+    padding-bottom: 14%;
+    padding-top: 14%;
+  }
+
+  .contact__link-email {
+    width: 25% !important;
+  }
+
+  .contact__link-facebook {
+    width: 19% !important;
   }
 }
 
@@ -254,8 +260,26 @@ html {
     display: block !important;
   }
 
+  /* Contact Info */
+  .contact__card {
+    padding-bottom: 14%;
+    padding-top: 14%;
+  }
+
+  .contact__email {
+    display: block !important;
+  }
+
   .contact__extra-pic {
     display: block !important;
+  }
+
+  .contact__link-facebook {
+    width: 11% !important;
+  }
+
+  .pricing__mobile-hint {
+    display: none !important;
   }
 
   h4 {

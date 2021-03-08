@@ -63,7 +63,7 @@
     <!-- Start Pricing -->
     <div id="pricing" class="description body-content">
         <h1 class="hero-header">Pricing </h1>
-        <p>(Mobile: scroll right for more options)</p>
+        <p class="pricing__mobile-hint">(Swipe right for more options)</p>
         <table class="hover scroll">
             <thead>
                 <tr>
@@ -345,7 +345,7 @@
 
         <!-- Start Extras -->
         <h4 class="hero-header">Extras</h4>
-        
+
         <!-- Start Extras (Mobile) -->
         <div class="extras__mobile" style="display: block;">
             <ul class="description" style="list-style-type:disc;">
@@ -455,23 +455,26 @@
     <!-- Start Contact -->
     <div id="contact" class="description body-content" style="column-count:2;">
         <h1 class="hero-header">Contact</h1>
-        <br>
         <div class="row">
             <div class="col-sm">
-                <h4>Erick Bond</h4>
-                <h5>500 Rainier View Lane</h5>
-                <h5>Selah WA, 98942</h5>
-                <h5>509-701-6411</h5>
-                <div class="contact__link">
-                    <a href="mailto:glimpseofthehunt@gmail.com">
-                        <img src="img/email.svg" alt="Email link">
-                    </a>
+                <div class="contact__card">
+                    <h4>Erick Bond</h4>
+                    <h5>500 Rainier View Lane</h5>
+                    <h5>Selah WA, 98942</h5>
+                    <h5>509-701-6411</h5>
+                    <h5 class="contact__email" style="display: none;">glimpseofthehunt@gmail.com</h5>
+                    <div class="contact__link contact__link-email">
+                        <a href="mailto:glimpseofthehunt@gmail.com">
+                            <img src="img/email.svg" alt="Email link">
+                        </a>
+                    </div>
+                    <div class="contact__link contact__link-facebook">
+                        <a href="https://www.facebook.com/erick.bond.5492">
+                            <img src="img/facebook.svg" alt="Facebook link">
+                        </a>
+                    </div>
                 </div>
-                <div class="contact__link">
-                    <a href="https://www.facebook.com/erick.bond.5492">
-                        <img src="img/facebook.svg" alt="Facebook link">
-                    </a>
-                </div>
+
                 <div class="contact__extra-pic" style="display: none;">
                     <br>
                     <img src="img/newShowcase/ericKneelingInTallGrass.jp2" alt="Erick Bond owner and founder">
@@ -480,7 +483,7 @@
             </div>
             <div class="col-sm">
                 <br>
-                <img src="img/contact.jpeg" alt="Erick Bond owner and founder">
+                <img src="img/contact.jpeg" alt="Erick Bond owner and founder" style="margin-top: 10px;">
             </div>
         </div>
 
@@ -500,6 +503,7 @@
     <footer class="body-content description">
         <!-- Copyright -->
         <div class="description custom-footer">© 2021 Copyright: Glimpse of the Hunt</div>
+        <div class="description custom-footer">Designed and Developed By Jared Lee (jaredlee.dev@gmail.com)</div>
         <div class="description custom-footer">Icons made by <a href="https://www.freepik.com/"
                 title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"
                 title="Flaticon">www.flaticon.com</a> is licensed by <a
