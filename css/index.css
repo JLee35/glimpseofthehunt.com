@@ -225,17 +225,31 @@ html {
   background-color: rgba(0,0,0,0.8);
 }
 
+@media only screen and (max-width: 350px) {
+  #contact__pic {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 375px) {
+  .contact__card {
+    padding-bottom: 2% !important;
+    padding-top: 2% !important;
+  }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 600px) {
+  .contact__card {
+    padding-bottom: 2% !important;
+    padding-top: 6% !important;
+  }
+}
+
 
 /* Table sizes */
 @media only screen and (max-width: 600px) {
   table.scroll {
     display: block;
-  }
-
-  .contact__card {
-    padding-bottom: 16%;
-    padding-top: 15%;
-    margin-bottom: 10px;
   }
 
   .contact__link-email {
@@ -285,6 +299,13 @@ html {
 
   h4 {
     font-size: 2.125rem;
+  }
+}
+
+@media only screen and (max-width: 1019px) {
+  .contact__card {
+    padding-bottom: 23%;
+    padding-top: 33%;
   }
 }
 
