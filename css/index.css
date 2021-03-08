@@ -233,8 +233,9 @@ html {
   }
 
   .contact__card {
-    padding-bottom: 14%;
-    padding-top: 14%;
+    padding-bottom: 16%;
+    padding-top: 15%;
+    margin-bottom: 10px;
   }
 
   .contact__link-email {
@@ -251,6 +252,10 @@ html {
     display: inline-table;
   }
   
+  #contact-div {
+    column-count: 2;
+  }
+
   /* Prices Extras Layout */
   .extras__mobile {
     display: none !important;
@@ -270,10 +275,6 @@ html {
     display: block !important;
   }
 
-  .contact__extra-pic {
-    display: block !important;
-  }
-
   .contact__link-facebook {
     width: 11% !important;
   }
@@ -287,6 +288,11 @@ html {
   }
 }
 
+@media only screen and (min-width: 1020px) {
+  .contact__extra-pic {
+    display: block !important;
+  }
+}
 
 .active {
   background-color: #717171;
