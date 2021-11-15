@@ -6,6 +6,7 @@ import { IntroComponent } from './intro/intro.component';
 import { BackgroundComponent } from './background/background.component';
 import { BannerComponent } from './banner/banner.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { PricingComponent } from './pricing/pricing.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     IntroComponent,
     BackgroundComponent,
     BannerComponent,
-    NavbarComponent
+    NavbarComponent,
+    PricingComponent
   ],
   imports: [
     BrowserModule

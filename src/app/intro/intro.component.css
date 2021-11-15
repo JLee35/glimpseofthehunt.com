@@ -4,3 +4,89 @@
   height: 31.25rem;
   position: relative;
 }
+
+.large-article-header-content {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: absolute;
+  bottom: 3.125rem;
+  left: 0;
+  right: 0;
+}
+
+.large-article-header-content .center-container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.large-article-header-content .article-date {
+  color: #fefefe;
+}
+
+.large-article-header-content .article-title h1 {
+  line-height: 3.125rem;
+  color: #fefefe;
+  font-weight: 600;
+}
+
+.large-article-header-content .article-details {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.large-article-header-content .article-details a {
+  color: #fefefe;
+}
+
+.large-article-header-content .article-author {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.large-article-header-content .article-author img {
+  border-radius: 3.125rem;
+}
+
+.large-article-header-content .article-author a {
+  margin-left: 1rem;
+}
+
+.body-content {
+  margin-bottom: 15px;
+}
+
+.description {
+  max-width: 1000px;
+  margin-left: 19.99px;
+  margin-right: 19.99px;
+}
+
+.hero-header {
+  color: black;
+  font-weight: 300;
+  font-size: 1.75rem;
+  line-height: 1;
+  letter-spacing: -0.03125rem;
+}
+
+.hero-text {
+  color: #272b2e;
+  font-size: 0.875rem;
+  line-height: 1.785714286;
+}

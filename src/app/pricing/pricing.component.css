@@ -1,0 +1,21 @@
+.body-content {
+  margin-bottom: 15px;
+}
+
+.description {
+  max-width: 1000px;
+  margin-left: 19.99px;
+  margin-right: 19.99px;
+}
+
+.hero-header {
+  color: black;
+  font-weight: 300;
+  font-size: 1.75rem;
+  line-height: 1;
+  letter-spacing: -0.03125rem;
+}
+
+.pricing__mobile-hint {
+  display: none !important;
+}
