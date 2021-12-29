@@ -7,6 +7,11 @@ import { BackgroundComponent } from './background/background.component';
 import { BannerComponent } from './banner/banner.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { PricingComponent } from './pricing/pricing.component';
+import { ModalComponent } from './modal/modal.component';
+import { ContactComponent } from './contact/contact.component';
+import { DisclaimerComponent } from './disclaimer/disclaimer.component';
+import { FooterComponent } from './footer/footer.component';
+
 
 @NgModule({
   declarations: [
@@ -15,7 +20,11 @@ import { PricingComponent } from './pricing/pricing.component';
     BackgroundComponent,
     BannerComponent,
     NavbarComponent,
-    PricingComponent
+    PricingComponent,
+    ModalComponent,
+    ContactComponent,
+    DisclaimerComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule

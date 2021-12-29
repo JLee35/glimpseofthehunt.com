@@ -1,5 +1,5 @@
 div {
-  background-image: url("../../../images/digital_background.png");
+  background-image: url("../../assets/images/digital_background.png");
   background-repeat: repeat-y;
   background-size: cover;
   height: 200vh;

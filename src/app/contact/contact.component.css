@@ -1,0 +1,21 @@
+.contact__card {
+  background-color: lightgray;
+  border-radius: 5px;
+  padding-bottom: 14%;
+  padding-top: 14%;
+  padding: 15px;
+}
+
+.contact__link {
+  display: inline-block;
+  width: 15%;
+  margin-right: 4%;
+}
+
+.contact__email {
+  display: block !important;
+}
+
+.contact__link-facebook {
+  width: 11% !important;
+}
