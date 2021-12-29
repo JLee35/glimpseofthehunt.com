@@ -1,4 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+/* Import statements must stay here! */
 @import url("https://unpkg.com/bootstrap@3.3.7/dist/css/bootstrap.min.css");
 @import url("https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
@@ -19,4 +20,51 @@
   color: #272b2e;
   font-size: 0.875rem;
   line-height: 1.785714286;
+}
+
+@media only screen and (max-width: 350px) {
+  #contact__pic {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  table.scroll {
+    display: inline-table;
+  }
+
+  #contact-div {
+    column-count: 2;
+  }
+
+  /* Prices Extras Layout */
+  .extras__mobile {
+    display: none !important;
+  }
+
+  .extras__desktop {
+    display: block !important;
+  }
+
+  /* Contact Info */
+  .contact__card {
+    padding-bottom: 14%;
+    padding-top: 14%;
+  }
+
+  .contact__email {
+    display: block !important;
+  }
+
+  .contact__link-facebook {
+    width: 11% !important;
+  }
+
+  .pricing__mobile-hint {
+    display: none !important;
+  }
+
+  h4 {
+    font-size: 2.125rem;
+  }
 }
