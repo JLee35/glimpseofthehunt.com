@@ -1,3 +1,8 @@
+#contact-div {
+  column-count: 2;
+  min-width: 350px;
+}
+
 .contact__card {
   background-color: lightgray;
   border-radius: 5px;
@@ -20,7 +25,11 @@
   width: 11% !important;
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 560px) {
+  #contact-div {
+    column-count: 1;
+  }
+
   #contact__pic {
     display: none;
   }

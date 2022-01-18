@@ -22,12 +22,6 @@
   line-height: 1.785714286;
 }
 
-@media only screen and (max-width: 350px) {
-  #contact__pic {
-    display: none;
-  }
-}
-
 @media only screen and (min-width: 600px) {
   table.scroll {
     display: inline-table;
@@ -44,20 +38,6 @@
 
   .extras__desktop {
     display: block !important;
-  }
-
-  /* Contact Info */
-  .contact__card {
-    padding-bottom: 14%;
-    padding-top: 14%;
-  }
-
-  .contact__email {
-    display: block !important;
-  }
-
-  .contact__link-facebook {
-    width: 11% !important;
   }
 
   .pricing__mobile-hint {
