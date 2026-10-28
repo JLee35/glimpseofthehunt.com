@@ -230,6 +230,33 @@ p {
   justify-content: center;
 }
 
+/* Wrap header to two lines on narrow phones so nav doesn't overflow */
+@media (max-width: 520px) {
+  .site-header {
+    flex-wrap: wrap;
+    row-gap: 10px;
+    padding-block: 14px;
+  }
+
+  .site-header nav {
+    gap: 1.5rem;
+  }
+}
+
+/* Stack hero text and button vertically on mobile; pan image right to show artist's hand */
+@media (max-width: 600px) {
+  .hero__overlay {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 20px;
+  }
+
+  .hero__img {
+    object-position: right bottom;
+  }
+}
+
 @media (max-width: 700px) {
   .section {
     flex-direction: column;
